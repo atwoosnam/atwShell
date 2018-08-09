@@ -1,0 +1,4 @@
+while true
+do
+	date "+%T"; git add .; git commit -m "auto backup"; sleep 600;
+done
